@@ -1,3 +1,18 @@
+## Для жителей РФ.
+
+ Если вы проживаете на территории РФ, то наверника столкнулись с той проблемой что скрипт не может отработать корректно, по той причине что не имеет возможности скачать Terraform, так как тот сайт заблокирован. 
+ В данном форке скрипт производит скачивания с сервера GitHub.
+ Что-бы возспользоваться им следует вместо команды
+```
+wget 'https://github.com/OpenNebula/minione/releases/latest/download/minione'
+```
+воспользоваться командой
+```
+wget 'https://github.com/yulais4/minione_ru/blob/master/minione'
+```
+и уже дайльше идти по официальным инструкциям.
+
+
 # miniONE
 
 **miniONE** is an easy to use deployment tool to build an evaluation OpenNebula cloud based on virtual machines (KVM). All necessary components to manage and run the virtual machines are installed and configured on your dedicated system with just a single command run.
